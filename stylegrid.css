@@ -1,0 +1,102 @@
+*{margin: 0; padding: 0; 
+    box-sizing: border-box; text-align: center; 
+    font-family: 'Gugi', cursive;}
+    
+    main{
+     width: 80%; margin: 80px auto; 
+     border:1px solid grey;
+     display: grid; color: rgb(11, 11, 11);
+     grid-template-rows: 80px 220px 400px 70px;
+     grid-template-columns: repeat(3, 1fr) 0px;
+     grid-gap: 00px;
+     
+    }
+    
+     .div1{ background-color: #afd23a; 
+      grid-column: 1/-1;
+      
+     }
+      
+     .div2{ background-color: #ee6510;
+        grid-column: 1/-1; }
+         
+     
+     .div3{ background-color: #e0b65d; 
+      grid-column: 1/ -1;
+     }
+     .div{ background-color: #4f885c;
+      grid-column: 1/-1;
+      }
+      
+
+      *{
+        margin: 00;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      body{
+        background: #565755;
+        font-family: 'Josefin Sans', sans-serif;
+      }
+      
+      .wrapper{
+        margin-top: 50px;
+      }
+      
+      .wrapper h1{
+        font-family: 'Allura', cursive;
+        font-size: 52px;
+        margin-bottom: 60px;
+        text-align: center;
+      }
+      
+      .team{
+        display: flex;
+        justify-content: center;
+        width: auto;
+        text-align: center;
+        flex-wrap: wrap;
+      }
+      
+      .team .team_member{
+        background: #fff;
+        margin: 60px;
+        margin-bottom: 50px;
+        width: 300px;
+        padding: 20px;
+        line-height: 20px;
+        color: #8e8b8b;  
+        position: relative;
+      }
+      
+      .team .team_member h3{
+        color: #2c4219;
+        font-size: 26px;
+        margin-top: 50px;
+      }
+      
+      .team .team_member p.role{
+        color: rgb(22, 53, 23);
+        margin: 12px 0;
+        font-size: 12px;
+        text-transform: uppercase;
+      }
+      
+      .team .team_member .team_img{
+        position: absolute;
+        top: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background: #fff;
+      }
+      
+      .team .team_member .team_img img{
+        width: 100px;
+        height: 100px;
+        padding: 5px;
+      }
+      
